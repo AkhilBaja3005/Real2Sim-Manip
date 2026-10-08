@@ -1,0 +1,25 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Checkpoints & large binaries
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Data logs & videos
+data/raw_videos/*.mp4
+data/raw_videos/*.mov
+data/raw_videos/*.avi
+!data/raw_videos/sample_demo.mp4
+outputs/*.mp4
+outputs/*.png
+
+# System & IDE
+.DS_Store
+.vscode/
+.idea/
